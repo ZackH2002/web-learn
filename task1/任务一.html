@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>任务一：HTML基本标签使用</title>
+  </head>
+  <body>
+    <main>
+      <h1>任务一：HTML基本标签使用</h1>
+      <ul>
+        <li>
+          <a style="color: darkorange" href="http://www.cqupt.edu.cn/"
+            >重庆邮电大学官网</a
+          >
+        </li>
+        <li>
+          <a style="color: darkturquoise" href="https://www.csdn.net/"
+            >csdn官方网站</a
+          >
+        </li>
+      </ul>
+      <article>
+        <h2>开始前端学习</h2>
+        <h3>希望能够坚持下去</h3>
+        <p>作者：新手开车，时间：2021</p>
+        <p>开始第一个段落，这是一个段落一个段落<br />换行</p>
+        <p>一个新的段落</p>
+        <img src="P1000361.JPG" alt="pic1" width="600" height="400" />
+        <p>
+          又是一个新的段落
+          <a style="color: deepskyblue" href="https://www.baidu.com/"
+            >这里有一个百度的链接</a
+          >
+          又是一个新的段落，新的段落。
+        </p>
+      </article>
+      <article>
+        <h2>另一篇文章的一级标题</h2>
+        <h3>二级标题</h3>
+        <h3>图片</h3>
+        <p>这是一个图片</p>
+        <img src="P1000361.JPG" alt="pic1" width="600" height="400" />
+        <br />
+        <p>这是一个图片</p>
+        <img src="P1000361.JPG" alt="pic1" width="600" height="400" />
+      </article>
+      <article>
+        <h2>最后一篇文章的一级标题</h2>
+        <ol>
+          <li>第一</li>
+          <li>第二</li>
+          <li>第三</li>
+        </ol>
+        <table border="1">
+          <tr>
+            <th>表头1</th>
+            <th>表头2</th>
+            <th>表头3</th>
+          </tr>
+          <tr>
+            <th>内容1.1</th>
+            <th>内容1.2</th>
+            <th><button type="button">操作</button></th>
+          </tr>
+          <tr>
+            <th>内容2.1</th>
+            <th>内容2.2</th>
+            <th><button type="button">操作</button></th>
+          </tr>
+          <tr>
+            <th>合计</th>
+            <th></th>
+            <th></th>
+          </tr>
+        </table>
+      </article>
+      <article>
+        <aside>这将是一个侧栏，这是侧栏标题</aside>
+        <form method="POST" action="save.php">
+          <h1>注册窗口标题</h1>
+          <label for="emailAdd" name="emailAdd">邮箱地址</label>
+          <input type="email" placeholder="请输入您的邮箱地址" />
+          <br />
+          <label for="password" name="password">设置密码</label>
+          <input type="password" palceholder="请输入密码" />
+          <label for="password" name="password">重复密码</label>
+          <input type="password" palceholder="请输重复输入密码" />
+          <br />
+          <p>密码为6-16位字符</p>
+        </form>
+        <form action="save1.php" method="POST">
+          <label>性别</label>
+          <input type="radio" value="1" name="gender" />
+          <label>男</label>
+          <input type="radio" value="0" name="gender" />
+          <label>女</label>
+          <!-- 此处名字设为一样，设置为单选 -->
+        </form>
+        <form>
+          <label>城市</label>
+          <select>
+            <option value="cq" selected="selected">重庆</option>
+            <option value="bj">北京</option>
+            <option value="sh">上海</option>
+          </select>
+        </form>
+        <from action="save.php" method="POST">
+          <label>爱好</label>
+          <input type="checkbox" value="1" name="hobby" />
+          <label>唱</label>
+          <input type="checkbox" value="2" name="hobby" />
+          <label>跳</label>
+          <input type="checkbox" value="3" name="hobby" />
+          <label>rap</label>
+          <input type="checkbox" value="4" name="hobby" />
+          <label>篮球</label>
+        </from>
+        <form>
+          <label>个人描述</label>
+          <textarea cols="30" rows="3">这是一个多行输入框</textarea>
+          <button type="submit">确认提交</button>
+        </form>
+      </article>
+    </main>
+  </body>
+</html>
