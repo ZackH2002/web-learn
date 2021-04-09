@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task02</title>
+    <link href="css.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="top">
+      <div id="left">
+        <img class="baidu_icon" src="baidu.png" height="40px" width="130px" />
+      </div>
+      <div id="top_right">
+        <ul>
+          <li><a href="https//www.baidu.com">导航链接1</a></li>
+          <li><a href="https//www.baidu.com">导航链接2</a></li>
+          <li><a href="https//www.baidu.com">导航链接3</a></li>
+          <li><a href="https//www.baidu.com">导航链接4</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="main">
+      <div id="first">
+        <h1>css入门学习笔记+案例</h1>
+        <h2>css入门学习</h2>
+        <h3>一、css简介</h3>
+        <h4>1.什么是css</h4>
+        <p>
+          CSS：Cascading Style Sheet 层叠样式表<br />是一组样式设置的规则，用于控制页面的外观样式
+        </p>
+        <h4>2.为什么使用css</h4>
+        <p>
+          实现内容与样式的分离，便于团队开发<br />样式复用，便于网站的后期维护<br />页面的精确控制，让页面更精美
+        </p>
+        <h4>3.css作用</h4>
+        <p>页面外观美化<br />布局和定位</p>
+        <h3>二、基本用法</h3>
+        <h4>1.css语法</h4>
+        <img src="pic1.png" alt="pic1" />
+      </div>
+      <div id="second">
+        <h1>HTML入门与进阶以及HTML5</h1>
+        <h2>一、简介<br />1、前端开发最核心技术</h2>
+        <p>
+          我们知道，用所谓的网页三剑客已经不能满足需求了，那前端开发究竟要学习什么技术呢？网页最主要由3部分组成：结构、表现和行为。网页现在新的标准是W3C，目前模式是HTML、CSS和JavaScript。
+        </p>
+        <img src="html&css&js.png" alt="html&css&js" />
+        <p>前端开发最核心的3个技术</p>
+        <h3>(1)HTML是什么？</h3>
+        <p>
+          HTML，全称“Hyper Text Markup
+          Language（超文本标记语言）”，简单来说，网页就是用HTML语言制作的。HTML是一门描述性语言，是一门非常容易入门的语言。
+        </p>
+        <h3>(2)css</h3>
+        <p>
+          CSS，全称“（层叠样式表）”。以后我们在别的地方看到“层叠样式表”、“CSS样式”，指的就是CSS。
+        </p>
+        <h3>(3)JavaScript</h3>
+        <p>JavaScript是一门脚本语言。</p>
+        <h2>2、前端开发其他技术</h2>
+        <p>
+          前端技术最核心的是HTML、CSS和JavaScript，但是对于一个真正的前端工程师来说，哪怕你精通这三个，你也不能称为一个真正的“前端工程师”。因为前端技术除了HTML、CSS和JavaScript这三种，还需要学习Ajax、SEO等。
+        </p>
+        <h2>二、基础内容</h2>
+        <h3>1.HTML的基本标签</h3>
+        <h4>(1)HTML标签</h4>
+        <p>整个网页是从 &lt;html&gt; 这里开始的，然后到 &lt;/html&gt; 结束。</p>
+        <h4>(2)head标签</h4>
+        <p>
+          head标签代表页面的“头”，定义一些特殊内容，这些内容往往都是“不可见内容”（在浏览器不可见）。
+        </p>
+        <table id="table1" border="black dotted ">
+          <caption>
+            表一&lt;head&gt;内部标签
+          </caption>
+          <tr>
+            <th style="width: 200px">&lt;head&gt;内部标签</th>
+            <th style="width: 400px">说明</th>
+          </tr>
+          <tr>
+            <td>&lt;title&gt;</td>
+            <td>定义网页的标题</td>
+          </tr>
+          <tr>
+            <td>&lt;meta&gt;</td>
+            <td>定义网页的基本信息（供搜索引擎）</td>
+          </tr>
+          <tr>
+            <td>&lt;style&gt;</td>
+            <td>定义CSS样式</td>
+          </tr>
+          <tr>
+            <td>&lt;link&gt;</td>
+            <td>链接外部CSS文件或脚本文件</td>
+          </tr>
+          <tr>
+            <td>&lt;script&gt;</td>
+            <td>定义脚本语言</td>
+          </tr>
+          <tr>
+            <td>&lt;base&gt;</td>
+            <td>定义页面所有链接的基础定位（用得很少）</td>
+          </tr>
+        </table>
+      </div>
+      <div id="aside">
+        <aside>
+          <h2 style="text-align: left">以后这里是侧栏</h2>
+          <form method="POST" action="save.php">
+            <label for="emailadd" name="emailAdd" class="aside"
+              >请输入邮箱地址</label
+            >
+            <input
+              style="margin-left: 20px"
+              type="email"
+              placeholder="邮箱地址请按要求填写"
+            />
+            <br />
+            <p
+              style="
+                font-size: small;
+                color: rgb(190, 190, 190);
+                text-align: center;
+              "
+            >
+              邮箱地址请按要求填写
+            </p>
+            <label for="password" name="password">请输入密码</label>
+            <input style="margin-left: 52px" type="password" />
+            <br />
+            <label for="rePassword" name="rePassword">请重复输入密码</label>
+            <input style="margin-left: 20px" type="password" />
+            <br />
+            <p style="font-size: small; color: rgb(190, 190, 190)">
+              密码请为6-16位英文和数字
+            </p>
+          </form>
+          <form style="margin-top: 30px" action="save1.php" method="POST">
+            <label>性别</label>
+            <input type="radio" value="1" name="gender" />
+            <label>男</label>
+            <input type="radio" value="0" name="gender" />
+            <label>女</label>
+            <!-- 此处名字设为一样，设置为单选 -->
+          </form>
+          <form action="save.php" method="POST">
+            <label for="city">城市</label>
+            <select style="margin-left: 20px">
+              <option value="BJ" selected="selected">北京</option>
+              <option value="CQ">重庆</option>
+              <option value="SC">四川</option>
+            </select>
+          </form>
+          <form action="save.php" method="POST">
+            <label for="hobby">爱好</label>
+            <input type="checkbox" value="1" name="hobby" />
+            <label>运动</label>
+            <input type="checkbox" value="1" name="hobby" />
+            <label>艺术</label>
+            <input type="checkbox" value="1" name="hobby" />
+            <label>科学</label>
+            <input type="checkbox" value="1" name="hobby" />
+            <label>音乐</label>
+          </form>
+          <form action="save.php" method="POST">
+            <label>个人描述</label>
+            <textarea
+              cols="100"
+              rows="5"
+              placeholder="这是一个多行文本框，输入个人描述"
+            ></textarea>
+          </form>
+          <button id="submitBit" type="submit">确认提交</button>
+        </aside>
+      </div>
+    </div>
+  </body>
+</html>

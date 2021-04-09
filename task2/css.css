@@ -1,0 +1,91 @@
+/*task2 css*/
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#top {
+  background-color: rgb(51, 51, 51);
+  width: auto;
+  height: 60px;
+  margin: 0;
+}
+
+.baidu_icon {
+  float: left;
+  padding-left: 40px;
+  padding-top: 10px;
+  height: 40px;
+  width: 130px;
+}
+
+#top_right {
+  float: right;
+  margin-left: 20px;
+}
+
+#top_right li {
+  float: left;
+  height: 60px;
+  margin-right: 20px;
+  margin-top: 17px;
+}
+
+#main {
+  background-color: rgb(222, 222, 222);
+  margin: 0;
+  height: auto;
+  width: auto;
+  border: 1px dotted rgb(222, 222, 222);
+}
+#first {
+  background-color: white;
+  margin: 20px;
+  padding: 40px 40px 20px 40px;
+  height: auto;
+  width: auto;
+}
+#second {
+  background-color: white;
+  margin: 20px;
+  padding: 40px 40px 20px 40px;
+  height: auto;
+  width: auto;
+}
+#table1 {
+  margin-left: 200px;
+  background-color: rgb(222, 222, 222);
+}
+#aside {
+  background-color: white;
+  margin: 20px;
+  padding: 40px 40px 20px 40px;
+  height: auto;
+  width: auto;
+}
+aside {
+  text-align: center;
+}
+#submitBit {
+  margin-top: 20px;
+  background-color: dodgerblue;
+  color: white;
+  width: 500px;
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+}
